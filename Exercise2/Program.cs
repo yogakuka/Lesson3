@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise1
+namespace Exercise2
 {
     class Program
     {
         static void Main(string[] args)
         {
+            App myApp = new App();
+            myApp.Start();
         }
     }
 }
